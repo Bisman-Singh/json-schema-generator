@@ -1,0 +1,25 @@
+{
+  "name": "json-schema-generator",
+  "version": "1.0.0",
+  "description": "Infer JSON Schema from sample JSON data",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "json-schema-gen": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["json", "schema", "generator", "inference", "cli"],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2"
+  }
+}
