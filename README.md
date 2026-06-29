@@ -66,3 +66,5 @@ console.log(JSON.stringify(schema, null, 2));
 | `includeAdditionalProperties` | `--no-additional` | Set additionalProperties to false |
 
 
+
+<sub><sup>Originally developed and tested locally during learning. Later organized and pushed to GitHub for portfolio visibility.</sup></sub>
